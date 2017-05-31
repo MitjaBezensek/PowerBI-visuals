@@ -77,7 +77,7 @@ Categorical data mapping is used to get one or two independent grouping of data.
 **Example 1**
 Here is the definition from our previous example on DataRoles.
 ```json
-"dataRole":[
+"dataRoles":[
     {
         "displayName": "Category",
         "name": "category",
@@ -114,7 +114,7 @@ This is a very simple example, in plain english it reads "Map my `category` Data
 
 In this example, we will use the first two DataRoles from the previous example, additionally defining `grouping` and `measure2`.
 ```json
-"dataRole":[
+"dataRoles":[
     {
         "displayName": "Category",
         "name": "category",
